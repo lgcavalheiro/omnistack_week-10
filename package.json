@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "loop": "nodemon index.js",
+    "loop": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/lgcavalheiro/omnistack_week-10#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^0.19.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.7"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
